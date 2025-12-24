@@ -7,7 +7,7 @@ const Team = () => {
     {
       name: 'Alex',
       position: 'CTO',
-      photo: '/images/team/alex.jpg',
+      photo: '/images/team/Alex_ZHU.jpg',
       bio: 'Visionary leader with 10+ years of experience in software development and business strategy. Passionate about building innovative solutions that make a difference.',
       skills: ['Strategic Planning', 'Technical Leadership', 'Innovation'],
       social: {
@@ -16,96 +16,33 @@ const Team = () => {
         github: '#',
         email: 'alex@techinnovators.com'
       }
-    },
+    }
+    ,
     {
-      name: 'Sarah Johnson',
+      name: 'ZHAO YANPU',
       position: 'CEO & Co-Founder',
-      photo: 'https://randomuser.me/api/portraits/women/44.jpg',
+      photo: '/images/team/ZHAO YANPU.jpg',
       bio: 'Dynamic business leader driving company vision and growth. Specializes in strategic planning and building high-performing teams that deliver exceptional results.',
       skills: ['Business Strategy', 'Team Building', 'Client Relations'],
       social: {
         linkedin: '#',
         twitter: '#',
         github: '#',
-        email: 'sarah@techinnovators.com'
+        email: 'zhaoyanpu@techinnovators.com'
       }
-    },
+    }
+    ,
     {
-      name: 'Michael Chen',
-      position: 'Lead Full-Stack Developer',
-      photo: 'https://randomuser.me/api/portraits/men/46.jpg',
-      bio: 'Technology expert specializing in cloud architecture and scalable systems. Leads development team with innovation and technical excellence.',
-      skills: ['Cloud Architecture', 'System Design', 'DevOps'],
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        github: '#',
-        email: 'michael@techinnovators.com'
-      }
-    },
-    {
-      name: 'Emily Rodriguez',
+      name: 'XIANG WENTAO',
       position: 'Lead Frontend Developer',
-      photo: 'https://randomuser.me/api/portraits/women/68.jpg',
+      photo: '/images/team/XIANG WENTAO.jpg',
       bio: 'Creative frontend developer with a keen eye for design and user experience. Specializes in React and modern web technologies that deliver pixel-perfect interfaces.',
       skills: ['React.js', 'UI/UX Design', 'TypeScript'],
       social: {
         linkedin: '#',
         twitter: '#',
         github: '#',
-        email: 'emily@techinnovators.com'
-      }
-    },
-    {
-      name: 'David Kumar',
-      position: 'Lead Backend Developer',
-      photo: 'https://randomuser.me/api/portraits/men/22.jpg',
-      bio: 'Expert backend developer focused on building robust and scalable server-side applications. Master of Node.js, database optimization, and RESTful API design.',
-      skills: ['Node.js', 'Database Design', 'API Development'],
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        github: '#',
-        email: 'david@techinnovators.com'
-      }
-    },
-    {
-      name: 'Jessica Lee',
-      position: 'Mobile App Developer',
-      photo: 'https://randomuser.me/api/portraits/women/90.jpg',
-      bio: 'Mobile development specialist creating seamless cross-platform experiences. Expert in React Native and Flutter with a track record of successful app launches.',
-      skills: ['React Native', 'Flutter', 'iOS & Android'],
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        github: '#',
-        email: 'jessica@techinnovators.com'
-      }
-    },
-    {
-      name: 'Marcus Thompson',
-      position: 'UI/UX Designer',
-      photo: 'https://randomuser.me/api/portraits/men/85.jpg',
-      bio: 'Creative designer passionate about creating beautiful and intuitive user interfaces. Transforms complex ideas into visually stunning and user-friendly designs.',
-      skills: ['UI Design', 'UX Research', 'Figma & Adobe XD'],
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        github: '#',
-        email: 'marcus@techinnovators.com'
-      }
-    },
-    {
-      name: 'Rachel Martinez',
-      position: 'DevOps Engineer',
-      photo: 'https://randomuser.me/api/portraits/women/26.jpg',
-      bio: 'DevOps specialist ensuring smooth deployment and operations. Expert in CI/CD pipelines, containerization, and cloud infrastructure management.',
-      skills: ['Docker', 'Kubernetes', 'AWS/Azure'],
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        github: '#',
-        email: 'rachel@techinnovators.com'
+        email: 'xiangwentao@techinnovators.com'
       }
     }
   ];
