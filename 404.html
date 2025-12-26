@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Tech Innovators - Leading Software Development Company" />
+  <title>Tech Innovators - Software Solutions</title>
+  <script>
+    // GitHub Pages 404 重定向解决方案
+    // 获取当前路径并重定向到根路径，保持 hash 路由
+    (function() {
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+      
+      // 如果不是根路径，重定向到根路径并保留路径信息作为 hash
+      if (path !== '/' && path !== '/tech-innovators/' && path !== '/tech-innovators') {
+        var basePath = '/tech-innovators/';
+        var redirectPath = path.replace(/^\/tech-innovators\/?/, '/');
+        
+        // 构建新的 URL
+        var newUrl = basePath + '#/' + redirectPath.replace(/^\//, '') + search + hash;
+        window.location.replace(newUrl);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+</html>
