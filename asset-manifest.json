@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tech-innovators/static/css/main.97f02dcb.css",
+    "main.js": "/tech-innovators/static/js/main.91cd7751.js",
+    "index.html": "/tech-innovators/index.html",
+    "main.97f02dcb.css.map": "/tech-innovators/static/css/main.97f02dcb.css.map",
+    "main.91cd7751.js.map": "/tech-innovators/static/js/main.91cd7751.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97f02dcb.css",
+    "static/js/main.91cd7751.js"
+  ]
+}
